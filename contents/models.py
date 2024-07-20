@@ -100,7 +100,7 @@ class Project(models.Model):
     date_ended = models.CharField(max_length=20, blank=True)
     main_image = models.ImageField(upload_to='project_images', default='')
     repo_link = models.CharField(max_length=100, blank=True)
-    demo_link = models.CharField(max_length=50, blank=True)
+    demo_link = models.CharField(max_length=500, blank=True)
     document_link = models.CharField(max_length=255, blank=True)
     project_category = models.ForeignKey(ProjectCategory, on_delete=models.CASCADE, related_name='projects')
 
