@@ -1,5 +1,5 @@
 # Personal Web Portfolio
-![Homepage](static/images/HomePage.png)
+
 
 
 ## Built with
